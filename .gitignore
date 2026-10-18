@@ -1,0 +1,35 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node / React
+node_modules/
+frontend/dist/
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Local database and biometric data
+*.db
+*.sqlite3
+embeddings/
+dataset/
